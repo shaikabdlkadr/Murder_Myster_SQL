@@ -16,3 +16,11 @@ def get_col_name(files):
 if __name__ == '__main__':
     files = glob.glob(r"C:\Users\shaik\OneDrive\Documents\Codes\SQL\Murder_Mystery\Dataset\CSV\*")
     print(get_col_name(files))
+
+    conf = {
+        'host' : "localhost",
+        'port' : "5432",
+        'database' : "murder_mystery",
+        'user' : "SQLTools",
+        'password' : "root"
+    }
